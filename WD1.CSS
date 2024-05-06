@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav#main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+  }
+  
+  nav#main-nav ul {
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav#main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav#main-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav#main-nav ul li a:hover {
+    color: #f00; /* Change color on hover */
+  }
+  
+  .scrolled {
+    background-color: #333; /* Change background color on scroll */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .content {
+    padding-top: 60px; /* Space for the fixed navbar */
+    height: 1500px; /* Just for demonstration */
+  }
+  
